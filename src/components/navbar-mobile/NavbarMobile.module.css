@@ -1,0 +1,51 @@
+.navbar {
+    background-color: #333;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 4;
+}
+.navbar__wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 16px;
+}
+.navbar__item {
+    max-width: 52px;
+}
+.navbar__btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 10px;
+    line-height: 14px;
+    color: #f7f7f7;
+}
+.navbar__icon {
+    font-size: 22px;
+    margin-bottom: 4px;
+}
+.product__count {
+    position: absolute;
+    top: -2px;
+    right: 0;
+    width: 18px;
+    height: 18px;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 13px;
+    background-color: #fbc100;
+    border: 2px solid #fff;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+
+@media screen and (min-width: 1024px) {
+    .navbar {
+        display: none;
+    }
+}
